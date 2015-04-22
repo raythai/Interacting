@@ -19,6 +19,7 @@ public class MainActivity extends ActionBarActivity {
     private LinearLayout planet;
     private Boolean onEarth = false;
     private Boolean onMars = false;
+    private Boolean vcsTest = false;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -71,6 +72,7 @@ public class MainActivity extends ActionBarActivity {
             stayMars.setText("Enter");
             onEarth = true;
             onMars = false;
+            vcsTest = true;
         }else if(onMars){
             Toast.makeText(this, hEarth, Toast.LENGTH_LONG).show();
             stayEarth.setText("Stay");
