@@ -1,7 +1,6 @@
 package com.example.raymond.interacting;
 
-import android.graphics.Color;
-import android.media.MediaPlayer;
+
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
