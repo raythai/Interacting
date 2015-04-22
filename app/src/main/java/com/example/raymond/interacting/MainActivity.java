@@ -20,6 +20,7 @@ public class MainActivity extends ActionBarActivity {
     private Boolean onEarth = false;
     private Boolean onMars = false;
     private Boolean vcsTest = false;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -59,7 +60,7 @@ public class MainActivity extends ActionBarActivity {
     public void onStayEarthButton(View view) {
         String firstName;
         if(String.valueOf(usersName.getText()).isEmpty()){
-            firstName = "User";
+            firstName = "the User";
         }else {
             firstName = String.valueOf(usersName.getText());
         }
