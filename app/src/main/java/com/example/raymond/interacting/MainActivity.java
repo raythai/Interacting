@@ -32,7 +32,7 @@ public class MainActivity extends ActionBarActivity {
         planet = (LinearLayout)findViewById(R.id.linear_layout);
 
     }
-
+        //testing vcs
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
