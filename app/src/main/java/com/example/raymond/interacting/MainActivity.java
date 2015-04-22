@@ -140,7 +140,7 @@ public class MainActivity extends ActionBarActivity {
     public void onLeaveMarsButton(View view) {
         String firstName;
         if(String.valueOf(usersName.getText()).isEmpty()){
-            firstName = "The User";
+            firstName = "User";
         }else {
             firstName = String.valueOf(usersName.getText());
         }
