@@ -60,7 +60,7 @@ public class MainActivity extends ActionBarActivity {
     public void onStayEarthButton(View view) {
         String firstName;
         if(String.valueOf(usersName.getText()).isEmpty()){
-            firstName = "the User";
+            firstName = "the kUser";
         }else {
             firstName = String.valueOf(usersName.getText());
         }
